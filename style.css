@@ -1,0 +1,102 @@
+* {
+  font-family: "NanumGothic";
+  box-sizing: border-box;
+}
+
+.header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  min-width: 320px;
+  border: 1px solid rgb(217, 215, 215);
+}
+
+.header_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fa-chevron-left,
+.fa-file-pen {
+  color: #ffc0cb;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #eee;
+  padding-bottom: 50px;
+}
+
+.feed {
+  border: 1px solid rgb(217, 215, 215);
+  width: 90%;
+  padding: 30px;
+  margin-top: 20px;
+  background: white;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile_info {
+  padding-left: 15px;
+}
+
+.profile_nickname {
+  font-weight: 600;
+  line-height: 200%;
+  font-size: 18px;
+}
+
+.profile_pic {
+  width: 60px;
+}
+
+.message {
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
+.message_2nd {
+  line-height: 180%;
+}
+
+.reaction {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.reach_and_comment {
+  display: flex;
+}
+
+.reaction_comment {
+  padding-left: 20px;
+}
+
+.heart {
+  display: flex;
+  flex-direction: column;
+  color: rgb(150, 147, 147);
+}
+
+.heart-icon {
+  align-self: center;
+}
+
+.heart-count {
+  font-size: 15px;
+}
+
+.touched_heart {
+  color: #ffc0cb;
+}
