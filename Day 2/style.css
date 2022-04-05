@@ -1,0 +1,57 @@
+@import "/reset.css";
+
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile_pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+}
+
+.profile_name {
+  margin-bottom: 6px;
+  color: rgb(154, 148, 131);
+  font-size: 26px;
+  font-weight: 1000;
+}
+
+.profile_region {
+  color: rgb(204, 202, 202);
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  background: rgb(154, 148, 131);
+}
+
+.follower_count,
+.repo_count,
+.following_count {
+  margin-bottom: 10px;
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+.follower_name,
+.repo_name,
+.following_name {
+  font-size: 18px;
+}
