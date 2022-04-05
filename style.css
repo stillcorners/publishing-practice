@@ -1,6 +1,10 @@
 * {
-  font-family: "NanumGothic";
   box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  background: #eee;
 }
 
 .header {
@@ -8,13 +12,27 @@
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  min-width: 320px;
-  border: 1px solid rgb(217, 215, 215);
+  border-bottom: 1px solid rgb(217, 215, 215);
 }
 
 .header_title {
   font-size: 20px;
   font-weight: bold;
+}
+
+.header_left,
+.header_right {
+  display: flex;
+  justify-content: center;
+  background: white;
+  border: none;
+  width: 30px;
+}
+
+.header_left:hover,
+.header_right:hover,
+.fa-heart:hover {
+  cursor: pointer;
 }
 
 .fa-chevron-left,
@@ -23,21 +41,15 @@
   padding: 10px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background: #eee;
-  padding-bottom: 50px;
-}
-
 .feed {
   border: 1px solid rgb(217, 215, 215);
   width: 90%;
   padding: 30px;
-  margin-top: 20px;
   background: white;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .profile {
@@ -45,7 +57,7 @@
 }
 
 .profile_info {
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
 .profile_nickname {
@@ -56,6 +68,9 @@
 
 .profile_pic {
   width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 .message {
@@ -80,13 +95,15 @@
 }
 
 .reaction_comment {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .heart {
   display: flex;
   flex-direction: column;
   color: rgb(150, 147, 147);
+  background: white;
+  border: none;
 }
 
 .heart-icon {
