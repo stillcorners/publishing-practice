@@ -1,0 +1,111 @@
+@import "/reset.css";
+
+.container {
+  height: 600px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+body {
+  display: flex;
+  background: gray;
+}
+
+.left_page {
+  background-image: url(/img/gom3.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: bottom;
+  background-size: 500px;
+  flex-direction: column;
+  display: flex;
+  width: 500px;
+}
+
+.left_main {
+  font-size: 35px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+
+.left_phrases {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 310px;
+}
+
+.left_icons {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 400px;
+}
+
+.fa-solid {
+  padding: 5px;
+}
+
+.right_page {
+  width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_logo {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  margin-top: 90px;
+}
+
+.main_text {
+  margin-top: 70px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.main_login {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.login_txt,
+#login,
+.password_txt,
+#password {
+  margin-bottom: 5px;
+}
+
+.login_bar {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 12px;
+  margin: 8px 0px;
+}
+.login_bar::before,
+.login_bar::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 0.5px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 40px 40px 40px 40px;
+}
