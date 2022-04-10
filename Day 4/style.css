@@ -1,0 +1,60 @@
+@import "/reset.css";
+
+header {
+  background-color: pink;
+  height: 50px;
+}
+
+.header_main {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+nav {
+  background-image: url(/img/image.jpg);
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav_main {
+  padding-top: 150px;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+main {
+  z-index: -1;
+  border-right: 1px solid rgb(212, 210, 210);
+  border-left: 1px solid rgb(212, 210, 210);
+  width: 50%;
+  font-size: 13px;
+  margin: auto;
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
+footer {
+  background: rgb(210, 210, 210);
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer_txt {
+  font-size: 6px;
+  font-weight: 700;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+}

@@ -15,10 +15,10 @@ body {
 }
 
 .left_page {
-  background-image: url(/img/gom3.jpg);
+  background-image: url(/img/gom6.jpg);
   background-repeat: no-repeat;
   object-fit: cover;
-  background-position: bottom;
+  background-position: center;
   background-size: 500px;
   flex-direction: column;
   display: flex;
@@ -31,23 +31,20 @@ body {
   font-weight: 900;
   color: white;
   text-align: center;
-  position: relative;
-  top: 300px;
+  margin-top: 400px;
 }
 
 .left_phrases {
   font-family: "Noto Sans", sans-serif;
   text-align: center;
   color: white;
-  position: relative;
-  top: 310px;
+  margin-top: 10px;
 }
 
 .left_icons {
   text-align: center;
   color: white;
-  position: relative;
-  top: 400px;
+  margin-top: 60px;
 }
 
 .fa-solid {
@@ -64,14 +61,14 @@ body {
 .main_logo {
   font-size: 30px;
   font-family: "Pacifico", cursive;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 .main_text {
   margin-top: 70px;
   font-family: "Noto Sans", sans-serif;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 
@@ -87,25 +84,92 @@ body {
 .login_txt,
 #login,
 .password_txt,
-#password {
-  margin-bottom: 5px;
+#password,
+.forget_txt {
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
-.login_bar {
-  display: flex;
-  flex-basis: 100%;
-  align-items: center;
-  color: rgba(0, 0, 0, 0.35);
-  font-size: 12px;
-  margin: 8px 0px;
+.password_txt {
+  margin-top: 10px;
 }
-.login_bar::before,
-.login_bar::after {
-  content: "";
-  flex-grow: 1;
-  background: rgba(0, 0, 0, 0.35);
-  height: 0.5px;
-  font-size: 0px;
-  line-height: 0px;
-  margin: 40px 40px 40px 40px;
+
+.forgot_txt {
+  text-align: end;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+input {
+  line-height: 150%;
+  border: none;
+  border-bottom: 1px solid rgb(163, 161, 161);
+}
+
+.login_btn {
+  width: 160px;
+  margin: auto;
+  height: 35px;
+  background: rgb(105, 105, 105);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.main_or {
+  display: flex;
+  align-items: center;
+  padding-right: 160px;
+  padding-left: 160px;
+  margin-top: 40px;
+  color: rgb(105, 105, 105);
+}
+.or_bar {
+  flex: auto;
+  border: none;
+  height: 0.1px;
+  background-color: rgb(105, 105, 105);
+}
+.or_txt {
+  padding: 0 10px;
+  font-size: 10px;
+}
+
+.main_google {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.google_logo {
+  width: 16px;
+  height: 16px;
+}
+
+.google_txt {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+.login_new {
+  display: flex;
+  font-family: "Noto Sans", sans-serif;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 25px;
+}
+
+.new_underline_txt {
+  margin-left: 4px;
+  text-decoration: underline;
+  text-underline-position: under;
 }
